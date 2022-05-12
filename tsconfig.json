@@ -1,5 +1,11 @@
 {
   "compilerOptions": {
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules"
+      }
+    ], //new
+
     "target": "es5",
     "lib": [
       "dom",
